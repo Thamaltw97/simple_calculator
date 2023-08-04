@@ -1,19 +1,19 @@
-# To-do: Create add() function here.
+# To-do (Kirandeep): Create add() function here.
 
 
-# To-do: Create subtract() function here.
+# To-do (Nimrta): Create subtract() function here.
 
 
-# To-do: Create multiply() function here.
+# To-do (Stephen): Create multiply() function here.
 
 
-# To-do: Create divide() function here.
+# To-do (Soureen): Create divide() function here.
 
 
-# To-do: Create exponentiate() function here.
+# To-do (Davi): Create exponentiate() function here.
 
 
-# To-do: Create squareRoot() function here.
+# To-do (Thamal): Create squareRoot() function here.
 
 
 # main function
@@ -37,17 +37,17 @@ def main():
         return
 
     if choice == 1:
-        # To-do: Call the add() function created above and initialize 'results' variable to it.
+        # To-do (Kirandeep): Call the add() function created above and initialize 'results' variable to it.
     elif choice == 2:
-        # To-do: Call the subtract() function created above and initialize 'results' variable to it.
+        # To-do (Nimrta): Call the subtract() function created above and initialize 'results' variable to it.
     elif choice == 3:
-        # To-do: Call the multiply() function created above and initialize 'results' variable to it.
+        # To-do (Stephen): Call the multiply() function created above and initialize 'results' variable to it.
     elif choice == 4:
-        # To-do: Call the divide() function created above and initialize 'results' variable to it.
+        # To-do (Soureen): Call the divide() function created above and initialize 'results' variable to it.
     elif choice == 5:
-        # To-do: Call the exponentiate() function created above and initialize 'results' variable to it.
+        # To-do (Davi): Call the exponentiate() function created above and initialize 'results' variable to it.
     elif choice == 6:
-        # To-do: Call the squareRoot() function created above and initialize 'results' variable to it.
+        # To-do (Thamal): Call the squareRoot() function created above and initialize 'results' variable to it.
     else:
         return
 
