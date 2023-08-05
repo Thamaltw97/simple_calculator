@@ -14,6 +14,11 @@
 
 
 # To-do (Thamal): Create squareRoot() function here.
+def squareRoot(num):
+    if num >= 0:
+        return num ** 0.5
+    else:
+        return "Error: Cannot calculate the square root of a negative number."
 
 
 # main function
@@ -48,6 +53,7 @@ def main():
         # To-do (Davi): Call the exponentiate() function created above and initialize 'results' variable to it.
     elif choice == 6:
         # To-do (Thamal): Call the squareRoot() function created above and initialize 'results' variable to it.
+        result = squareRoot(number)
     else:
         return
 
