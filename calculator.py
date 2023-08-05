@@ -2,6 +2,8 @@
 
 
 # To-do (Nimrta): Create subtract() function here.
+def subtract(num1, num2):
+    return num1 - num2
 
 
 # To-do (Stephen): Create multiply() function here.
@@ -40,6 +42,7 @@ def main():
         # To-do (Kirandeep): Call the add() function created above and initialize 'results' variable to it.
     elif choice == 2:
         # To-do (Nimrta): Call the subtract() function created above and initialize 'results' variable to it.
+        result = subtract(number1, number2)
     elif choice == 3:
         # To-do (Stephen): Call the multiply() function created above and initialize 'results' variable to it.
     elif choice == 4:
