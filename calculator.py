@@ -11,7 +11,8 @@
 
 
 # To-do (Davi): Create exponentiate() function here.
-
+def exponentiate(number1, number2):
+    return pow(number1, number2)
 
 # To-do (Thamal): Create squareRoot() function here.
 
@@ -46,6 +47,7 @@ def main():
         # To-do (Soureen): Call the divide() function created above and initialize 'results' variable to it.
     elif choice == 5:
         # To-do (Davi): Call the exponentiate() function created above and initialize 'results' variable to it.
+        results = exponentiate(number1, number2)
     elif choice == 6:
         # To-do (Thamal): Call the squareRoot() function created above and initialize 'results' variable to it.
     else:
