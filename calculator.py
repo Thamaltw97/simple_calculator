@@ -4,7 +4,7 @@
 # To-do (Nimrta): Create subtract() function here.
 
 
-# To-do (Stephen): Create multiply() function here.
+# To-do (Stephen): Create multiply() function here .
 def multiply(num1, num2):
     return num1 * num2
 
