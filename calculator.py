@@ -7,7 +7,9 @@ def subtract(num1, num2):
     return num1 - num2
 
 
-# To-do (Stephen): Create multiply() function here.
+# To-do (Stephen): Create multiply() function here .
+def multiply(num1, num2):
+    return num1 * num2
 
 
 # To-do (Soureen): Create divide() function here.
@@ -47,6 +49,7 @@ def main():
         result = subtract(number1, number2)
     elif choice == 3:
         # To-do (Stephen): Call the multiply() function created above and initialize 'results' variable to it.
+	result = multiply(number1, number2)
     elif choice == 4:
         # To-do (Soureen): Call the divide() function created above and initialize 'results' variable to it.
     elif choice == 5:
