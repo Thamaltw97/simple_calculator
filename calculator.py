@@ -8,6 +8,8 @@
 
 
 # To-do (Soureen): Create divide() function here.
+def divide(num1, num2):
+    return num1 / num2
 
 
 # To-do (Davi): Create exponentiate() function here.
@@ -44,6 +46,7 @@ def main():
         # To-do (Stephen): Call the multiply() function created above and initialize 'results' variable to it.
     elif choice == 4:
         # To-do (Soureen): Call the divide() function created above and initialize 'results' variable to it.
+        result = divide(number1, number2)
     elif choice == 5:
         # To-do (Davi): Call the exponentiate() function created above and initialize 'results' variable to it.
     elif choice == 6:
