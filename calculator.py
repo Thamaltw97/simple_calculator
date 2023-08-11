@@ -1,5 +1,6 @@
 # To-do (Kirandeep): Create add() function here.
-
+def add(num1, num2):
+    return num1 + num2
 
 # To-do (Nimrta): Create subtract() function here.
 
@@ -38,6 +39,7 @@ def main():
 
     if choice == 1:
         # To-do (Kirandeep): Call the add() function created above and initialize 'results' variable to it.
+        result = add(number1, number2)
     elif choice == 2:
         # To-do (Nimrta): Call the subtract() function created above and initialize 'results' variable to it.
     elif choice == 3:
